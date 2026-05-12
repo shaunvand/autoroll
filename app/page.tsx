@@ -2,6 +2,7 @@ export default function Home() {
   return (
     <>
       <section className="wrap hero">
+        <img src="/icon-192.png" alt="Autoroll" width={96} height={96} style={{ borderRadius: 22, marginBottom: 24 }} />
         <h1>Autoroll</h1>
         <p>Your camera roll, posted automatically.<br/>AI picks your best shots, enhances them, writes the caption. You tap once to approve.</p>
         <a href="#waitlist" className="cta">Join the waitlist</a>
